@@ -1,0 +1,6 @@
+====== Summary ======
+
+===== Pre-requisites =====
+To look into incidents of unauthorized access, you will need the following in place:
+  * A policy that access to systems be on an as-needed basis, such as requiring the principle of least privilege.
+  * Logging of all authentication events

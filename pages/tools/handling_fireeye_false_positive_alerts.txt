@@ -1,0 +1,28 @@
+====== Handling False positive alerts in the FireEye system ======
+===== Summary =====
+
+Because of the way the FireEye MPS devices analyze executables, if they do not know that a specific file is good, they may create a false positive event for a good file such as a software update or a legitimate download from an external site.  This may appear as an event with a generic name such as “Local Infection” or “Malware Binary”.
+
+
+
+A “Local Infection” match means that one of the FireEye MPS devices has detected some activity and/or behavior on the network that appears suspicious. Sometimes these alerts are false positives.  If left unchecked, the entire MPS system will continue to mark this type of activity as malicious and generate alerts if it is not informed otherwise.
+
+
+==== Procedure ====
+To eliminate false positive Local Infection matches, you need to delete the original alert identified by the system as malicious.  To do so, perform the following steps.:
+
+  - Open an alert that is a false positive
+  - Check that this is the original (first) alert of this type,
+    - In the output look for the text “Original Infection id”
+    - If this entry exists, click the link to take you to the original alert
+    - If the entry does not exist, you are already looking at the original alert
+  - If the FP is a “Local Infection”, then you need to clear the false positive alert from the FireEye system in order to prevent further notices of the same type:
+    - ssh as admin to the reporting FireEye MPS device
+    - enable command mode
+    - issue the command show malware id xxxxxxx where xxxxxxx is `the numeric malware ID number.
+    - If this was not the original infection id (i.e. there was a similarly-detected infection that occurred before the one under investigation), then the device will report the number of the original infection.
+    - Once you know the original infection id, you can delete it with the following command:
+
+malware delete id yyyyyyy where yyyyyyy is the OriginalID.
+  - If the FP is due to a mis-identification of legitimate software or files, then these should be reported to FireEye as a false positive case.
+

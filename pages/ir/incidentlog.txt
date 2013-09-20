@@ -1,0 +1,4 @@
+====== 2013 Security Incident Log ======
+
+^ Incident ^ Nickname / Desc ^ Status ^ Closure Date ^ 
+| [[2013-01-01a]] | Lorem | Ipsum |  |

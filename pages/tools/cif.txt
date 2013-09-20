@@ -1,0 +1,54 @@
+====== Collective Intelligence Framework ======
+===== Summary =====
+{{https://code.google.com/p/collective-intelligence-framework/|CIF}} is essentially a large repository and clearing-house for threat indicators, or [[Indicators of Compromise]].  It has a feed-parser pulls everything you tell it to (eg: threat feeds, RT feeds, etc) and normalizes all the un-organized data into a massive repository so that over time; you develop a chronological repo of threat (or describing) data about as many observations of data as possible.
+
+**Every search creates an entry in the database**, which is a good thing as this informs you that other people are searching for the same thing you are.  If you are searching just to see if there is a match, then use the _-n_ "no log" switch to perform a silent query.
+
+The key here, is that it parses various data-formats (xml, rss, text, csv, etc) and normalizes so you can search it, compare it, correlate it across feed sources during an investigation. 
+===== System Info =====
+==== Server Information ====
+   * Servername: coriolanus.jnpr.net
+   * Linux-based
+   * SSL protected
+   * API key authorization
+   * Comprises the [[Threat Indicator Database]]
+==== Indicator Classifications ====
+Indicators are classified into "groups" based on the sensitivity of the information.  A user with a valid API key may have access to one or more of the following groups.  The ability to submit data (write to the database)
+   * **everyone** the default group, open to everyone on the system and any system that federates with our instance
+   * **confidential** company confidential information.  Most data should be submitted as this, and it still has a wide audience
+   * **limited** information only available through an NDA or other limited sharing arrangement
+   * **compartmentalized** information that is very sensitive and only has a limited distribution
+
+===== Getting Started with CIF =====
+==== Installing the CIF client ====
+  * Install {{http://www.perl.org/|perl}}
+  * Install the client library with the following command
+
+  sudo perl -MCPAN -e 'install CIF::Client'
+
+  * Cif looks for a configuration file in your $HOME
+  * Edit your .cif configuration file, it should look something like this:
+
+  [client]
+  host = https://coriolanus.jnpr.net:443/api
+  apikey = aaaaaaaaa-bbbb-xxxx-yyyy-zzzzzzzzzzzz
+  timeout = 60
+  verify_tls = 0
+
+==== Performing a Query ====
+ipv4-addr query
+<code console>
+$ cif -q 130.201.0.1
+Query: 130.201.0.1
+Feed Restriction: private
+Feed Created: 2011-01-21T14:26:51Z
+
+restriction |severity|address       |portlist|detecttime            |description                                   |alternativeid_restriction|alternativeid                                        
+need-to-know|high    |130.201.0.0/16|        |2011-01-20 00:00:00+00|hijacked network infrastructure 130.201.0.0/16|public                   |http://www.spamhaus.org/sbl/sbl.lasso?query=SBL101200
+need-to-know|high    |130.201.0.0/16|        |2011-01-21 00:00:00+00|hijacked network infrastructure 130.201.0.0/16|public                   |http://www.spamhaus.org/sbl/sbl.lasso?query=SBL101200
+private     |        |130.201.0.0/16|        |2011-01-21 14:00:00+00|search 130.201.0.0/16                         |private                  |                                     
+</code>
+
+==== Installing the Firefox add-on ====
+There is a [[CIF browser plugin]] available for Firefox and Chrome that allows for both searching and submitting data to the CIF instance.  
+

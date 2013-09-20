@@ -1,0 +1,8 @@
+====== VirusTotal ======
+===== Summary =====
+VirusTotal is a service owned by Google that allows the investigator to lookup md5 and sha1 sums against a database of known good and bad files, provide a URL for analysis, and even upload a suspicious file for review by over 40 antivirus engines.
+===== Description =====
+  * VirusTotal can be found at https://www.virustotal.com/
+  * Use MD5 sums whenever possible
+  * Care should be taken before uploading files to the VirusTotal service.  Providing a file under investigation to antivirus vendors can tip our hand to what we know.  
+

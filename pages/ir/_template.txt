@@ -1,0 +1,36 @@
+===== Metadata =====
+^ Case Number | 2013-XX-XX |
+^ Classification | lorem ipsum |  
+^ Severity | lorem |
+^ Opened By | name |
+(See [[ir:Activity Classifications]] for types)
+===== Summary =====
+
+
+===== Next Steps =====
+(Move items to appropriate sections as completed, and remove this section when the incident is closed)
+  * Lorem
+  * Ipsum
+
+==== Indicators ====
+^ Indicator  ^ Indicator Type ^ Indicator Sub-type ^ Role ^ Notes ^
+| 111.222.333.444 | Network | IPV4Address | C2 | |
+| some.domain | Network | FQDN | C2 | |
+| http://not.a.url | String | URL | Exploit | single-use |
+
+For Indicator categories and types, see the [[:ir:Indicators of Compromise]] page
+
+===== Research =====
+==== OS-INT ====
+
+=== CYMRU ASN lookups ===
+
+=== CIF lookups ===
+
+===== Mitigation and Remediation =====
+
+===== Conclusion =====
+
+=== upload related files ===
+{{medialist>@PAGE@}}
+{{upload>@page@|OVERWRITE|RENAMEABLE}}

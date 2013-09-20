@@ -1,0 +1,93 @@
+====== Managing DoS Attacks ======
+
+
+===== Introduction =====
+
+The ultimate aim of a DoS attack is to prevent users from accessing a system or resource, and the potential cost to critical infrastructure can be considerable. The impact of downtime to critical infrastructure organisations may not be limited to lost revenue and goodwill, but can extend to social and human costs.  Internet-dependent and networked infrastructure components are generally most at risk of a DoS attack.
+
+
+A sufficiently motivated and skilled attacker may be able to commandeer adequate resources to overwhelm an organisation’s infrastructure regardless of its level of preparedness. However, implementing an appropriate framework to manage the DoS threat can maximise the robustness of systems and minimise their downtime in the event of an attack.  
+
+
+One of the most common types of cyber-threats to these environments is known as a Denial of Service (DoS) attack – an attack preventing users from accessing a system for a period of time.  Recent DoS attacks have left large corporate and government web sites inaccessible to customers, partners and users for hours or days, resulting in significant financial, reputational, and other losses.  The growing use of cloud computing services and shared infrastructure is further increasing the importance of having a considered plan for managing such DoS attacks.
+
+Developing an effective mitigation strategy is an important measure to minimise the risk posed to an organisation by the threat of DoS attacks. The threat of a DoS attack is most effectively addressed as a risk-management issue, and considered as an overall business risk, as opposed to a technical or operational risk. 
+
+A comprehensive DoS management framework structured around the Protect, Detect and React triad is required to address the complete lifecycle of a DoS attack:  
+  * Strengthening systems and networks against attacks.
+  * Detecting attacks when they occur.
+  * Reacting appropriately to counter current and future attack trends.
+ 
+Developing an effective DoS threat-management strategy is a significant task and one that requires extensive communications with partners and suppliers – particularly Internet and telecommunications service providers – prior to an incident occurring. Prudent planning and preparation can mean the difference between a total shut down of the organisation and a slight inconvenience.
+
+
+===== Threat Assessment =====
+
+A Threat Assessment is the most effective way to identify the DoS risks to your organisation.
+ 
+{{:ir:dos:2013-01-17c:dos_threat_assessment.png?nolink |}}
+
+At first glance DoS attacks appear simple to define and distinguish; however, they can be categorised and sorted in numerous overlapping ways, and have a variety of very important factors to consider when assessing likelihood and impact.  Important distinctions are:
+
+  * Attack vectors – Services subject to DoS attacks are not restricted to the electronic medium; people can be ‘socially engineered’ and procedural loopholes can be abused. In addition, pre-existing relationships between organisations can be exploited by attackers and leveraged in DoS attacks. For example, domain names can potentially be hijacked if an attacker is able to convince a domain name registrar to point a URL belonging to an organisation to an IP address controlled by the attacker. This prevents the web site of that organisation from being accessible to legitimate Internet users. 
+
+  * Attack mechanics – For any DoS attack, it is important to ask “how was the attack executed?” and the most widely accepted categories are:
+   o Consumption of scarce resources, such as network connectivity and bandwidth consumption.
+   o Destruction or alteration of configuration information.
+   o Physical destruction or alteration of network components.
+   o Abuse of business logic.
+
+  * Single point vs. distributed – The aim of a DoS attack is to abuse specific weaknesses in business logic or system components. A Distributed DoS (DDoS) typically involves using a number of previously compromised computers to attack a target. A DDoS attack can be more difficult to defend against and detect. Reaction to a DDoS attack usually requires the help of the organisation’s external service providers.
+
+  * Client vs. server – Compromising a networked service or functionality can be achieved either by impeding the ability of the server to provide the service or by impeding the client’s ability to access the service.  DoS attacks against the server are by far the most common, with the intention of affecting all clients of a resource rather than a particular subset.  
+
+  * External vs. internal – DoS incidents can originate both from sources external to an organisation, or from within the organisation itself.  Internal incidents can include the deliberate acts of disgruntled employees, inadvertent acts such as mis-configuration of systems or through internal security incidents that affect the availability of systems.
+
+  * Internally managed vs outsourced – Your business operations may rely on systems and networks over which you have little or no control, especially with the increasingly common use of cloud computing services and Software as a Service (SAAS).  In such an environment, protective measures implemented by external service providers are also important for an organisation to consider.
+
+  * Communication layers – It is possible to target any of the seven OSI communications layers. Attacks directed at the higher layers (particularly the application layer) are generally more prevalent, sophisticated and harder to detect and prevent.
+  
+  * Weaknesses Exploited – Most DoS attacks, especially distributed attacks, rely on fundamental weaknesses in computing infrastructure:
+   o Unpatched systems 
+   o Lack of authentication 
+   o Poorly configured systems (including virtual systems)	
+   o Existence of reflectors/amplifiers
+   o Difficulties in identifying an attack 
+   o Shared, vulnerable infrastructure
+   
+  * Motivation for Attack – DoS attacks began to occur when a critical mass of organisations and individuals became Internet connected, giving attackers real incentive to strike.  Their motivations include:
+   o Credibility with other hackers for compromising a high-profile site
+   o Retaliation for real or perceived slights or injustices
+   o Monetary gain (criminal extortion or competitive tactics)	
+   o Political activism and cyber terrorism
+   o Simple boredom, a desire for entertainment, or ‘experimenting’ with new attack techniques
+   
+Some organisations may also be unintended targets for a DoS attack, either through a misdirected attack or sharing infrastructure with the intended target. Even in these cases, an appropriate strategy will still need to be in place to respond to such an attack.
+
+  * Scope of attack – While a DoS attack may be targeted against a specific component of an organisation’s infrastructure (for example, its public website), the attack may also affect other systems as well (for example, the ability to send and receive email).
+
+===== Attack Trends =====
+
+The following summarises current and future trends in DoS attacks for use in identifying current DoS threats, and how these are likely to evolve over time:
+
+=== Current ===
+
+  * Reflection and amplification  (including DNS recursion)
+  * Larger botnets & autonomous propagation
+  * Botnet markets which are increasingly sophisticated in nature
+  * Peer-to-peer botnets
+  * Botnets using encrypted communications
+  * Attacks against government infrastructure for political purposes
+  * Use of DoS by organised crime
+  * Attacks against virtual servers
+  * Increasing sophistication of malware and malware packaging 	
+
+=== Future: ===
+
+  * Attacks on emerging technologies
+  * Application layer DoS
+  * Realistic behaviour of DoS traffic (further difficulty in detection)
+  * Attacks against anti-DoS infrastructure
+  * Attacks against SCADA systems
+  * Attacks against shared infrastructure and the ‘cloud’
+  * Attacks against web services

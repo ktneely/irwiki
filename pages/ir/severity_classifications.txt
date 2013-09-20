@@ -1,0 +1,11 @@
+===== Severity levels =====
+ 
+==== Critical ====
+Examples of critical-severity incidents include imminent physical threat to facilities or employees , unmitigated high-severity incidents, malicious data alteration, attempts to exfiltrate restricted information, or a DoS attack.  The response time line for a critical incident includes:  immediate activation of the team and initiation of analysis and mitigation, personnel essential to handling the incident drop what they are doing, update meetings every 3 hours, including beginning and close of business.  The meeting notes should be sent to management identified during team creation. 
+
+==== High ====
+ Examples of high-severity incidents include phishing attacks, unauthorized change in a production system environment, the same virus on 50+ computers, an attempt to transfer confidential data, an attempt to circumvent security controls, attempts to exfiltrate confidential information, or an unmitigated / worsening medium-security incident.  The response time line for a high-severity incident includes: team activation and work begins same business day as the incident discovery, update meetings twice daily.  The meeting notes should be sent  to management identified during team creation. 
+==== Medium ====
+Examples of medium-severity incidents include an unsuccessful intrusion attempts, a virus breakout in a lab or on 10-50 computers.  The response time line for medium-severity should begin within one business day with updates sent daily to both the team and to management identified during team creation.  
+==== Low ====
+Examples of low-severity incidents include a virus on a user workstation or minor misuse of computer resources.  The response timeline for low-severity incidents should begin within 2 days, does not require full mobilization of the CISRT, all tracking should be within ServiceNow, and updates provided in weekly updates.  In low-severity events, the leader typically makes up the entire response team.

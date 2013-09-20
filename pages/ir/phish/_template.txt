@@ -1,0 +1,32 @@
+====== Spam/Phishing Incident ======
+===== Metadata =====
+^ Case Number | 2013-01-01a |
+^ Classification |  |
+^ Severity | Medium |
+^ Opened By | Person |
+
+===== Summary =====
+==== Description ====
+
+==== Stats ====
+^ Total emails sent | ## |
+^ Total emails delivered | ## |
+^ First seen | 2013-01-01 00:00PDT |
+^ Spear phishing? | y/n |
+^ Total unique MTAs used | ## |
+^ Exploits used | CVE-2010-XX-XX |
+^ Recpient(s) vulnerable? | y/n |
+
+
+===== Research =====
+
+
+===== Mitigation and Remediation =====
+
+
+===== Conclusion =====
+
+
+=== Related files ===
+{{medialist>@PAGE@}}
+{{upload>@page@|OVERWRITE|RENAMEABLE}}

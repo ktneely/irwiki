@@ -1,0 +1,25 @@
+====== Using this Incident Response Log ======
+===== Taxonomy =====
+This response log relies upon DokuWiki namespaces for its organization.  
+==== Security Incident section ====
+To enable the use of temaplates, the security incident section is further broken down into further namespaces.  These are:
+  * ir (General Security incidents, tracking, and reports)
+  * Intelligence Collection
+      * actor (Information regarding a specific actor)
+      * group (Information regarding a specific group)
+      * intrusionset ([[Intrusion Set]], essentially, a collection of incidents)
+      * malware (Malicious code descriptions and analysis reports)
+      * exploits (specific information about exploit kits and malicious code)
+      * intrusionset (tracking of a specific [[Intrusion Set]]
+      * thirdpartyintel (Third Party Intelligence)
+  * legal (Legal matters and investigations)
+  * drec (Data Recovery)
+
+
+To use one of these, you either click in to the namespace and create a new page, or you create a page and explicitly identify the namespace by creating a document with the namespace prepended.  So, if you would create a page for a new actor, you would identify it like this:
+  [[actor:newactor]]
+
+Which would create a page for newactor using the Actor template.  Or you can do this:
+  [[ir:2013-01-01a]]
+
+Which would create a page for newactor using the incident response template.  Do the same thing for any of the other security namespaces.

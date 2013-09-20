@@ -1,0 +1,20 @@
+====== Incident Response Tools and Utilities ======
+===== Internal =====
+  * [[Xplico]] - **Shared pcap review for IR** -
+  * [[IR-Splunk]] - **Local Splunk instance for tactical incident response** -
+  * [[STRM]] - **Security Threat Response Manager** -
+  * [[EnCase]] - **EnCase forensic tool** -
+  * [[FTK]] - **FTK forensic tool** -
+  * [[CIF]] - **The Collective Intelligence Framework** -
+  * [[WebSense]] - **Web proxy and URL protection** - 
+
+===== External Services =====
+  * [[CYMRU]]
+  * [[Robtex]]
+  * [[VirusTotal]]
+
+===== Local / Downloadable =====
+  * {{http://www.dban.org | DBAN}}
+  * {{http://securityblog.verizonbusiness.com/2012/11/06/freeing-tactical-intelligence-from-pdfs-with-iocextractor/ | IOCExtractor}}
+  * {{http://insecure.org | Nmap}}
+  * {{http://www.wireshark.org/download.html | Wireshark}}

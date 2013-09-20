@@ -1,0 +1,21 @@
+====== Summary ======
+Welcome to the Incident response log and tracking system.  This system is based on the DokuWiki software, with some plugins and modifications applied from Scott Roberts' [[http://sroberts.github.com/sapho/|Sapho Intelligence project]].  You should only have access to those sections for which you have a valid need to know.  If for any reason, you believe that the ACLs for a given page or namespace are incorrect, please notify your incident response lead.
+
+===== Security Intelligence and Intrusion Response ======
+[[ir: | Security Incident Response Log]]  This is the primary area for security incidents.
+[[Security Intelligence and Campaign tracking]]
+
+====== Getting Started ======
+This is a wiki system, which allows for a wide range of editing and page manipulation so that you can enter all the information possible.  Additionally, some templates have been created, which allow for structured formatting of regular scenarios.  Please check the links below for Usage
+
+==== Wiki syntax and usage ====
+  * [[Wiki Conventions]]   <-- If you do not know about wikis, **start here**!
+  * [[ir:Using this Incident Response Log]]  <-- Read this to understand the types of entries **EVERYONE**
+
+==== Processes, Procedures, and Definitions ====
+  * [[:ir:Response Procedures]]
+    * [[:ir:Activity Classifications]]
+    * [[:ir:Severity Classifications]]
+    * [[:ir:Attack Descriptions]]
+  * [[:ir:Indicators of Compromise]] - "IOCs" 
+  * [[:tools:|Tools and Utilities]]

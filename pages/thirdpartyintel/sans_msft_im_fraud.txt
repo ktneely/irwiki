@@ -1,0 +1,58 @@
+====== Metadata ======
+^ Calssification | TLP: <color green>White</color> |
+^ Collaboration Network | Open Sources |
+^ Date    | 2013-04-24 |
+====== Report ======
+https://isc.sans.edu/diary/Microsoft%20s%20Security%20Intelligence%20Report%20SIRv14%20released/15659?utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer:%20@lennyzeltser%20on%20twitter&buffer_share=883f3 
+==== Summary ====
+We received notice about fraudulent messages sent via ICQ and MSN Messanger, 
+urging users to visit various websites to download Windows patches. While these
+websites resemble 'official' Microsoft sites, the patch is in fact a trojan
+horse. If installed, the trojan horse will connect to an IRC server and 
+participate in a "botnet" which could be used to portscan or to launch DDOS
+attacks. 
+
+It has become a common tactic to impersonate well known web sites to either
+trick the user into revealing personal information or to download and install
+trojans. This class of attacks, commonly known as "cognitive hacking" represent
+a variation of social engineering attacks and are not easily defeated by
+technical means. User education is the number one defense. We do urge system
+administrators to educate users about commonly used techniques.
+
+In this case, a number of hints indicate that the site is not authentic:
+
+The message arrives via MSN or ICQ. Microsoft will never use either service to notify users of patches. Either instant messanger service should not be considered
+"secure". One has to understand that neither service uses encryption to transmit
+messages, and authentication is weak.
+
+The URL does not use a domain name, but an IP address. The site is not using
+https, but plain http. While https can be used to make a 'fake' site look more
+authentic, it adds an extra layer of complexity most malware authors avoid.
+
+The url includes javascript code to maximize the window. Likely, this is done
+to conceal the fact that the site is not using http (the 'lock' icon moves off
+the screen). More sophisticated impostures will move the actual task bar of the
+screen and replace it with its own image of a 'secure' task bar.
+
+Immediate measures:
+
+We do recommend blocking access to the following IPs and sites used in this
+scam:
+
+==== Indicators ====
+
+200.152.5.119
+212.78.206.150
+209.126.216.36
+
+upon joining the IRC channel, the 'bots' are currently instructed to 27374 and 1243. The installed binary is 'scan.exe'. While scan.exe is not currently detected as a virus, it will uncompress itself and extract several components which are detected by virus scanners.
+
+Just a reminder: there are likely variations of this basic scheme. Please do
+NOT take these instructions too specific. More generic, outbound IRC traffic,
+and outbound scans of port 27374 and 1243 are always suspicious.
+
+==== CIF information ====
+No hits on IP addresses. - 2013-04-24
+
+=== upload related files ===
+{{upload>@page@:|OVERWRITE|RENAMEABLE}}

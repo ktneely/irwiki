@@ -1,0 +1,33 @@
+
+===== Summary =====
+
+
+===== Next Steps =====
+(Move items to appropriate sections as completed, and remove this section when the incident is closed)
+  * Lorem
+  * Ipsum
+
+===== Indicators =====
+==== Network Indicators ====
+DCISENetwork Indicators Sub Type |Description 
+
+^ IPv4Address  |The IPv4 address of the system in dot-decimal format (e.g., 192.168.1.1) |
+^ IPv4RangeStart  |The IPv4 address that marks the beginning of the range that is given to the system or network, in dot-decimal format (e.g., 192.168.1.1) |
+^ IPv4RangeEnd  |The IPv4 address that marks the end of the range that is given to the system or network, in dot-decimal format (e.g., 192.168.1.1) |
+^ IPv6Address  |The IPv6 address of the machine in a 128-bit hexadecimal, colon-separated string format (e.g., 2001:db8:85a3::8a2e:370:7334) |
+^  IPv6RangeStart  |The starting IPv6 address of the machine in a 128-bit hexadecimal, colon-separated string format (e.g., 2001:db8:85a3::8a2e:370:7334) |
+^ IPv6RangeEnd |The ending IPv6 address of the machine, in a 128-bit hexadecimal, colon-separated string format (e.g., 2001:db8:85a3::8a2e:370:7334) |
+^Application Protocol  |The Layer Seven protocol that establishes process-to-process communications (e.g., Hypertext Transfer Protocol (HTTP), DNS, or Simple Mail Transfer Protocol (SMTP)) |
+^ Port |A number describing the communication endpoints for network traffic |
+^ Protocol |The Layer Four (transport) protocol that encapsulates data that is sent between application processes (e.g., Transmission Control Protocol (TCP) or User Datagram Protocol (UDP)) |
+^ Encryption Type |A description of the encryption schema that obfuscates network traffic |
+^Whois |Registrant information that is retrieved from one or more WHOIS databases |
+
+==== E-mail Indicators ====
+==== Signature Indicators ====
+==== File Indicators ====
+^ FileMD5 | The MD5 cryptographic hash value for the file |
+^ FileSHA1 | The SHA1 cryptographic hash value for the file |
+
+=== upload related files ===
+{{upload>@page@|OVERWRITE|RENAMEABLE}}

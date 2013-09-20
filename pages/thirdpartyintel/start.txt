@@ -1,0 +1,14 @@
+====== Third Party Intelligence Reports ======
+These pages contain an archive of intelligence received by other parties with whom Juniper has a relationship.  The usage of the provided information ranges from public, to very specific use cases that require limited access even within Juniper.  In most cases, we follow the [[http://www.us-cert.gov/tlp/|US-CERT traffic light protocol]].
+
+If no classification guidance is present, assume TLP Amber.
+
+===== Sharing Group 1 =====
+[[tpi-alpha]]
+
+===== Sharing Group 2 =====
+[[tpi-bravo]]
+
+===== News Sources =====
+  * [[:thirdpartyintel:Krebs-Wordpress]] - **Wordpress brute force admin password attack**
+  * [[thirdpartyintel:SANS MSFT IM fraud]] - **Fraudulent MSFT updates via IM**

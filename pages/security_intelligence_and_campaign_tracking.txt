@@ -1,0 +1,45 @@
+====== Summary ======
+The security incident and intrusion response log is a record of internal and external security incidents warranting further investigation by the InfoSec and SOC teams.  This log aims to generate intelligence from the data collected and research performed during response procedures.  The intelligence should then -where practicable- be fed back into prevention systems and network architecture so as to protect the network by thwarting the attacker's infrastructure and methods.
+
+{{http://infosuck.org/0x003f.png?600}} 
+
+====== News ======
+===== Verizon Threat Intel =====
+{{rss>http://securityblog.verizonbusiness.com/feed/ 4 author date 36h}}
+
+
+====== Intrusion Campaigns ======
+=====  Persistent Spammer Campaign =====
+  * [[:intrusionset:|Intrusion Sets]]
+  * [[intrusionset:WinterWapiti]] - **Winter, 2012** -
+  * [[intrusionset:WinterWildcat]] - **Winter, 2013** -
+
+
+
+====== Third Party Intelligence ======
+  * [[thirdpartyintel:|Third Party Intel Home]] - **3rd Party Intel home** -
+  * [[:thirdpartyintel:DHS-INC260245]] - **DHS-provided Joint Indicator Bulletin**
+
+====== Known Malicious Tools ======
+===== Malicious Code and Tools =====
+  * [[malware:exploits:Java EveryDay]]
+====== Malware Families ======
+  * [[malware:]] - Malware family archive
+  * [[malware:Trojan.Anamika]] - Trojan.Anamika
+  * [[malware:Trojan.Leouncia]] - Trojan.Leouncia
+  * [[malware:Binocolo]] - FEAuto.Binocolo
+===== Exploit Kits =====
+  * [[malware:exploits:Sweet Orange]] - Exploitation tool Sweet Orange.
+  * [[malware:exploits:Blackhole]] - Blackhole exploit kit
+
+====== Tracked Groups and Actors ======
+===== Known Threat Groups =====
+[[group:Group Archive]] \\
+**Most Active Groups**
+  * [[group:Lornet]]
+  * [[group:YellowJacket]]
+  * 
+===== Known Threat Actors =====
+[[actor:Actor Archive]] \\
+**Most Active Actors**
+  * [[actor:Florin Carja]]  - Romanian XSS researcher

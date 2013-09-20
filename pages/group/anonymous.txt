@@ -1,0 +1,42 @@
+===== Group: Anonymous =====
+^ Summary | Anonymous (used as a mass noun) is a loosely associated hacktivist group. It originated in 2003 on the imageboard 4chan, representing the concept of many online and offline community users simultaneously existing as an anarchic, digitized global brain.[2] It is also generally considered to be a blanket term for members of certain Internet subcultures, a way to refer to the actions of people in an environment where their actual identities are not known. It strongly opposes Internet censorship and surveillance, and has hacked various government websites. It has also targeted major security corporations.[4][5][6] It also opposes Scientology, government corruption and homophobia. |
+^ Web Presence | http://anonnews.org, http://en.wikipedia.org/wiki/Anonymous_%28group%29  |
+^ Group Type | Hacktivist |
+===== Membership =====
+==== Known Actors ====
+  * [[actor:actor:person alpha]] - Sabu
+  * [[actor:actor:person bravo]]
+==== Associated Groups ====
+  * [[:group:group alpha]]
+  * [[:group:group bravo]]
+==== Web Presence ====
+
+
+
+===== Related Incidents =====
+  * [[:ir:2013-04-02a]] - #OpIsrael
+
+===== Campaigns =====
+==== Take down the corporations ====
+=== Methodology ===
+  * DDoS using anonymous members
+=== Tool Chain ===
+  * LOIC - Low orbit ion cannon
+==== OpIsrael ====
+=== Methodology ===
+  * website defacement
+  * magna aliqua.
+  * Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+=== Tool Chain ===
+  * Lorem ipsum
+  * Lorem ipsum
+==== Op #3
+=== Methodology ===
+  * Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  * Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+=== Tool Chain ===
+  * Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  * Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+===== Periods of Operations =====
+  * 2010 - present
+

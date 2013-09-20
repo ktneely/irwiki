@@ -1,0 +1,18 @@
+===== Group: Anonymous =====
+^ Group Page | [[Anonymous]] |
+^ Summary | Anonymous is a loose group of cyber activists or 'Hacktivists' |
+^ Web Presence | http://anonnews.org, http://en.wikipedia.org/wiki/Anonymous_%28group%29  |
+^ Group Type | Hacktivist |
+
+===== Group: Bravo =====
+^ Group Page | [[Group Bravo]]
+^ Summary | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut  |
+^ Web Presence | http://www.example.com, http://www.example.com,  |
+^ Group Type | Unknown |
+
+===== Group: Charlie =====
+^ Group Page | [[Group Charlie]]
+^ Summary | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut  |
+^ Web Presence | http://www.example.com, http://www.example.com,  |
+^ Group Type | Unknown |
+

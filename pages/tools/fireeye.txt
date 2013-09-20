@@ -1,0 +1,14 @@
+====== FireEye appliance ======
+===== Summary =====
+The FireEye appliance is a device that monitors network traffic for indications of malicious traffic.  It also captures the data it sees on the wire and -if it is an executable- runs it in a VM for analysis. It also stores a copy of suspected malware for later analysis.
+
+More Information:
+   * {{http://fireeye.com | FireEye website}}
+   * [[Updating the FireEye Appliances]]
+
+===== FireEye Usage =====
+  * [[:Investigating Malware]] - using the FireEye to investigate malware infections
+  * [[:ir:Malware Infections]] - responding to malware infections
+
+===== FireEye Maintenance =====
+    * [[Handling FireEye False Positive Alerts]]

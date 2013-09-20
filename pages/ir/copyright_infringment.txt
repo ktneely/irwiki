@@ -1,0 +1,72 @@
+====== Procedure ======
+From time to time, the incident response team may receive alerts through the abuse@juniper.net email alias from copyright owners stating their their IP is being shared from a system on the network.  The following is a procedure for responding to these events with templates for updates and requests for information so the response can be consistent among responders.  
+  - Record the incident in the incident tracker.
+  - Send the initial letter to the reporting agency
+  - Perform a search on the STRM for the internal IP related to the external IP and port provided by the reporting agency
+  - Correlate the logs to an internal user
+  - Send the cease and desist letter to the user.
+  - Send the closure letter to the reporting agency.
+ 
+====== Letter templates ======
+===== Incident case opened =====
+==== Description ====
+This letter is sent to the reporting agency to inform them that we are handling the matter.
+==== Template ====
+Dear XXXXX,
+
+Thank you for contacting our incident response team and reporting this alleged copyright violation.  Internally, we have identified this as Incident XXXXX; please include this number in all further correspondence.
+
+We are actively investigating the matter and working to correlate the information you provided with our logs.  Due to the high volume of requests, and the difficulty in pin-pointing an internal system with so little information, this may take some time.  If you have further information to share that would help speed up or increase the validity of our findings, please send that to us.  The destination IP address would be extremely helpful.
+
+We will send a followup note when we have either identified the source of the traffic or determined that we cannot determine the system with a high degree of validity.
+
+thank you,
+Information Security
+===== Followup letter to Reporting Agency - Need more Information =====
+==== Description ====
+This letter is sent to the reporting agency in the event that the information they have provided is insufficient for us to determine the offending system.
+==== Template ====
+Dear XXXXX,
+
+Thank you for contacting our incident response team and reporting this alleged copyright violation.  Internally, we have identified this as Incident XXXXX; please include this number in all further correspondence.
+
+Unfortunately, we are unable to correlate the information provided by you with any system that may have been the cause of this traffic.  Due to the high volume of data flowing in and out of our egress points, we will need some more information.  The destination IP address would be extremely helpful.
+
+If you have further information to share that would help speed up or increase the validity of our findings, please send that to us.  Otherwise, we will consider the matter closed.
+
+thank you,
+Information Security
+===== Followup letter to Reporting Agency =====
+==== Description ====
+This letter is sent to the reporting agency when the matter has been successfully handled.
+==== Template ====
+Dear XXXXX,
+
+We have identified the system that appears to have been the cause of the traffic of which you notified us.  However, the file specified in the original report was not located on the system.  In any case, we have taken steps to prevent this type of activity in the future.
+
+Please let us know if there is anything else we can help you with.
+
+thank you,
+Information Security
+===== Letter to internal employee =====
+==== Description ====
+This letter is sent to the internal employee responsible for downloading the identified material.
+==== Template ====
+Dear User,
+
+Network log security has alerted to excessive P2P traffic originating from <Source IP>, at the time of discovery, this IP was assigned to your username. This data correlate to the time that <name of movies or shows> was downloaded to the corporate network. If you have proof you have downloaded these <movies> with copyright owner permission, please let us know.
+
+If you have business needs to participate in P2P networks please let us know and we will document this activity as a legitimate P2P traffic.
+
+ 
+
+Otherwise immediately discontinue use of P2P on the corporate network.
+
+<color red>
+**Please acknowledge receipt of this message.**
+</color>
+ 
+
+Regards,
+
+Information Security Team

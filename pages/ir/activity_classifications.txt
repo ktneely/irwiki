@@ -1,0 +1,27 @@
+===== Incident Categories =====
+The incident categories listed below are neither comprehensive nor intended to provide definitive classification for incidents; rather, they simply give a basis for providing guidance on how to handle incidents based on their primary category:
+==== Denial of Service ====
+
+A Denial of Service [[(DoS)]] attack is an attack that prevents or impairs the authorized use of networks, systems, or applications by exhausting resources.  An example is a botnet directs large volume of packets to VPN server, overwhelming the interface's capacity
+
+==== Phishing ====
+Email sent to the user community that falsely identifies itself and attempts to convince the recipient to perform some action that would be detrimental to corporate information assets.
+
+==== Malicious Code & Virus Response ====
+Malicious code is software (e.g. virus, worm, trojan, etc) that runs arbitrary commands on an infected host.  An example is an employee launching an infected email attachment.
+
+==== Unauthorized Access ====
+Unauthorized access is when a person gains unauthorized access to a network, system, data, or any other corporate resource. 
+
+==== Inappropriate Usage ====
+ 
+Inappropriate usage is when a person violates acceptable use of any network or computer policies.  For example
+  * users expropriating company data to which they have legitimate access for personal gain,
+  * Intellectual Property and Proprietary Information exfiltration, or
+  * An attack or employee action that results unauthorized parties in possession of company confidential data.
+
+==== Vulnerability ====
+An exploitable vulnerability has been identified in some software or system deployed by the company.
+
+==== Multiple Component ==== 
+An incident encompassing multiple elements.  An example is a user intentionally placing malware into a system he legitimately has access for the purpose of unlawful gain.

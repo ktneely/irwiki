@@ -1,0 +1,26 @@
+====== Summary ======
+The security incident and intrusion response log is a record of internal and external security incidents warranting further investigation by the InfoSec and SOC teams.  This log aims to generate intelligence from the data collected and research performed during response procedures.  The intelligence should then -where practicable- be fed back into perimeter and prevention systems so as to protect the network.
+
+{{http://imgs.xkcd.com/comics/retro_virus.png?600}}
+
+====== Incident Logs ======
+  * [[IncidentLog-2013]]
+  * [[IncidentLog-2012]]
+  * [[IncidentLog-2011]]
+
+====== Known Malicious Tools ======
+====== Malware Families ======
+  * [[malware:]] - Malware family archive
+  * [[malware:Trojan.Anamika]] - Trojan.Anamika
+  * [[malware:Trojan.Leouncia]] - Trojan.Leouncia
+  * [[malware:FEAuto.Binocolo]] - FEAuto.Binocolo
+===== Exploit Kits =====
+  * [[malware:exploits:Sweet Orange]] - Exploitation tool Sweet Orange.
+  * [[malware:exploits:Blackhole]] - Blackhole exploit kit
+  * 
+====== News ======
+===== SANS ISC =====
+{{rss>http://isc.sans.edu/rssfeed_full.xml 4 author date 18h }}
+===== Team Cymru =====
+{{rss>http://www.team-cymru.org/News/secnews.rss 3 author date 18h }}
+

@@ -1,0 +1,4 @@
+====== Threat Actor Archive ======
+^ [[Person Alpha]]     | Lorem Researcher |
+^ [[Person Bravo]]     | Ipsum author |
+^ Person other         | Lorem ipsum |

@@ -1,0 +1,24 @@
+====== Team CYMRU ======
+===== Summary =====
+Team CYMRU (pronounced "cum-ree") is a specialized Internet security research firm dedicated to making the Internet more secure. Team Cymru helps organizations identify and eradicate problems in their networks, providing insight that improves lives. 
+http://www.team-cymru.com/ 
+
+===== Services =====
+CYMRU offers a number of services.  They are free, but some require a sign-up
+
+==== ASN search ====
+CYMRU hosts an ASN lookup via whois server.  It will resolve an IP address to the ASN to which it is assigned.
+Usage is like this:
+  $ whois -h whois.cymru.com <IP address>
+
+
+==== BOGONS List ====
+CYMRU hosts the BOGON reference list
+http://www.team-cymru.org/Services/Bogons/
+
+==== ASN Alert list ====
+When one of Team CYMRU's sensors detects malicious activity coming from commercial networks.  Incident Responders at those institutions may sign up for an account that allows them to view the alerts so they may detect and respond to the infected system.
+
+Sign-up for access is here: https://www.tcconsole.com/signup.html
+
+You will need to know the ASNs for your network.

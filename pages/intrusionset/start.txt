@@ -1,0 +1,5 @@
+====== Intrusion Set ======
+===== Summary =====
+An intrusion set is an incident or a collection of incidents that share common tactics, techniques, and procedures.  An intrusion set typically has one group behind it, but the actions are performed by multiple actors.
+===== Examples =====
+Examples include the famous "Titan Rain" intrusion from 2004 and the "Aurora" intrusion into multiple corporations from 2010.

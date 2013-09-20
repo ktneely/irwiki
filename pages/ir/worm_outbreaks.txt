@@ -1,0 +1,53 @@
+====== Response Procedure for Handling Worm Incidents ======
+
+===== Version History =====
+^ Date ^ Version ^ Author ^ Comments ^
+| August 2012 |  0.1-draft | Kevin Neely | Initial draft |
+| Jan 2013 | 0.2-draft | Kevin Neely | wiki formatting |
+
+
+===== Objective =====
+This document lists the actions and procedures required in the event malicious code with worm characteristics begins propagating on the network.
+
+
+===== Response Phases =====
+
+==== Preparation Phase ====
+
+Responders must have:
+
+  * administrative access to the suspicious system, 
+  * the ability to remotely execute commands on the suspicious system, 
+  * in some cases, GUI access to the suspicious, and
+  * when necessary, physical access to the suspicious system
+
+
+
+==== Protection Phase ====
+
+To protect from worm outbreaks, systems should employ:
+
+  * Up-to-date antivirus software installed, 
+  * Host-based network protection measures, and 
+  * Network-based network protection measures.
+  * Minimize the number of allowed protocols within the network and across Internet gateways,
+  * Restricted use of the network through technologies such as Network Access Control, and
+  * A patch management program which encompasses endpoints and server hosts.
+
+==== Detection Phase ====
+Detection of a worm on the network will usually come from one of two sources:
+
+  * A large number of A/V alerts from different systems concerning the same type of malware, or
+  * A spike in a type of traffic (e.g. SMB) on multiple network segments.
+
+==== Triage Phase ====
+
+
+==== Response Phase ====
+
+
+==== Feedback Phase ====
+
+
+
+

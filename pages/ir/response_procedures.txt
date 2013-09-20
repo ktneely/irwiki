@@ -1,0 +1,23 @@
+====== Summary ======
+------ 
+This is not meant to be an exhaustive list, nor are all the procedures filled in.  Every organization has its own spin on what it considers an incident and own way to respond to and address incidents as they occur and are detected.
+------
+
+This is the Table of Contents for incident response procedures.  The sections map to the various incident categories.  Please contact the security group with any questions regarding these procedures or suggestions for a new or updated procedure.
+
+==== Denial of Service ====
+
+
+==== Email ====
+  * [[Phishing and Spam Attacks]]
+  * [[User spam submission instructions]]
+==== External Notifications ====
+  * [[Copyright Infringment]]
+  * [[Notice of a Compromised System]]
+==== Inappropriate Usage ====
+  * [[Identifying Inappropriate Usage]]
+==== Malicious Code ====
+  * [[Malware Infections]]
+  * [[Worm Outbreaks]]
+==== Unauthorized Access ====
+  * [[Researching Unauthorized Access]]
