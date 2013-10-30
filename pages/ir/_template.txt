@@ -7,10 +7,7 @@
 ===== Summary =====
 
 
-===== Next Steps =====
-(Move items to appropriate sections as completed, and remove this section when the incident is closed)
-  * Lorem
-  * Ipsum
+===== Investigation =====
 
 ==== Indicators ====
 ^ Indicator  ^ Indicator Type ^ Indicator Sub-type ^ Role ^ Notes ^
@@ -20,16 +17,26 @@
 
 For Indicator categories and types, see the [[:ir:Indicators of Compromise]] page
 
-===== Research =====
-==== OS-INT ====
+==== Actions ====
+=== Next Steps ===
+(Move items to appropriate sections as completed, and remove this section when the incident is closed)
+  * Lorem
+  * Ipsum
 
-=== CYMRU ASN lookups ===
+=== Performed ===
 
-=== CIF lookups ===
+==== Research ====
+=== OS-INT ===
+
+== CYMRU ASN lookups ==
+
+== CIF lookups ==
 
 ===== Mitigation and Remediation =====
 
 ===== Conclusion =====
+
+==== Recommendations and Lessons Learned ====
 
 === upload related files ===
 {{medialist>@PAGE@}}
