@@ -1,8 +1,9 @@
 ===== Metadata =====
-^ Case Number | 2013-XX-XX |
+^ Case Number | @PAGE@ |
 ^ Classification | lorem ipsum |  
 ^ Severity | lorem |
-^ Opened By | name |
+^ Source | ipsum |
+^ Incident Lead | @USER@ |
 (See [[ir:Activity Classifications]] for types)
 ===== Summary =====
 
