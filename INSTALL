@@ -1,0 +1,17 @@
+INSTALL
+=======
+
+A brief overview to install the IRwiki templattes over the Sapho templates.  
+
+Installation is pretty striaghtforward:
+- Setup and configure a simple webserver with the following components
+  - Linux or Windows
+  - Apache
+  - Git
+- Install DokuWiki  (http://dokuwiki.org)
+  - upload plugin
+  - discussion plugin
+- Clone or copy over the template files
+- Edit your /var/www/wiki/conf/mime.local.conf to enable additional MIME types
+- Rename the IGNORE file to .gitignore
+
